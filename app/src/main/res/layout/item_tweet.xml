@@ -38,5 +38,17 @@
         app:layout_constrainedWidth="true"
         tools:text="This is a really really long tweet to our layout" />
 
+    <TextView
+        android:id="@+id/tvCreatedAt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/tvTweetBody"
+        app:layout_constraintStart_toEndOf="@+id/tvUsername"
+        app:layout_constraintTop_toTopOf="parent" />
+
     
 </androidx.constraintlayout.widget.ConstraintLayout>
